@@ -2,6 +2,12 @@
 InfinityDots website
 
 ### Codes that should normally include at the head of the file
+Color palette: anything from black to white and anything from red to white.
+
+For viewing in mobile, although you must actually write adaptable css first :
+~~~~
+\<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>
+~~~~
 
 For viewing in mobile, although you must actually write adaptable css first :  
 ~~~~
