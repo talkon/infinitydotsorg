@@ -29,7 +29,7 @@ h2 {
 }
 .nav {
   height: 40px;
-  font-size: 20px;
+  font-size: 22px;
   padding: 8px;
   margin: 0px;
   border: 0px;
@@ -46,6 +46,7 @@ h2 {
 .navname {
   font-size: 22px;
   font-weight: 700;
+  display: inline-block;
 }
 .navbutton {
   float: right;
@@ -115,7 +116,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  background-color:
+  background-color: #333;
 }
 .content a:link, .content a:visited, .footer a:link, .footer a:visited {
   color: #FAA;
