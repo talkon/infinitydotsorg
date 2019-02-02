@@ -109,10 +109,12 @@ h2 {
   padding: 4px;
 }
 .content {
-  margin: auto;
   width: 90%;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
   background-color:
 }
 .content a:link, .content a:visited, .footer a:link, .footer a:visited {
@@ -142,6 +144,9 @@ h2 {
   margin-left: 4px;
   margin-right: 4px;
   margin-bottom: 10px;
+  width: 100%;
+}
+.morewrapper {
   width: 100%;
 }
 .more a:link, .more a:visited, .back a:link, .back a:visited {
