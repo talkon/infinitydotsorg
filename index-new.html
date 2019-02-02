@@ -6,34 +6,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<script type="text/x-mathjax-config">
-  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 	</script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	<!-- local file chrome is the only file don't work, if run on server it should be fine? -->
+	<!-- from https://github.com/LexmarkWeb/csi.js -->
+	<script src='csi.min.js'></script>
 </head>
 <body>
 	<div class="page-container">
-		<div class="nav">
-			<div class="navlogo">
-				<a href="index.html">
-					<img src="assets/logo/logo-white.svg" height="20px" alt="[Logo]" float="left"/>
-					<span class="navname">
-						InfinityDots
-					</span>
-				</a>
-			</div>
-			<div class="navbutton">
-				<a href="about.html"> About </a>
-			</div>
-			<div class="navbutton">
-				<a href="blog.html"> Blog </a>
-			</div>
-			<div class="navbutton">
-				<a href="archive.html"> Archive </a>
-			</div>
-			<div class="navbutton">
-				<a href="infinitydotsmo.html"> MO </a>
-			</div>
-		</div>
+		
+		<div data-include="navbar.html"></div>
+
 		<div class="content-wrap">
 			<div class="highlightbox">
 				<div class="highlightmiddle">
@@ -71,7 +55,7 @@
 						<a href="infinitydotsmo.html">More about InfinityDots&nbsp;MO&nbsp;&rarr;</a>
 					</div>
 				</div>
-		  	<div class="block3">
+				<div class="block3">
 					<h1>
 						Test archive
 					</h1>
@@ -82,7 +66,7 @@
 						<a href="archive.html">Browse our test archive&nbsp;&rarr;</a>
 					</div>
 				</div>
-		  	<div class="block3">
+				<div class="block3">
 					<h1>
 						Blog
 					</h1>
