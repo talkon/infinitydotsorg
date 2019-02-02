@@ -81,7 +81,7 @@ h2 {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-  min-height: 300px;
+  min-height: 250px;
   height: 54vh;
   background-color: #F55;
 }
@@ -200,6 +200,9 @@ h2 {
   .highlight, .block1 {
     width: 80%;
     min-width: 540px;
+  }
+  .highlightbox {
+    min-height: 300px;
   }
 }
 @media screen and (max-width: 600px) {
