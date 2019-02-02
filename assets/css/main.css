@@ -79,7 +79,9 @@ h2 {
 .highlightbox {
   display: table;
   width: 100%;
-  min-height: 360px;
+  padding-left: 5%;
+  padding-right: 5%;
+  min-height: 300px;
   height: 54vh;
   background-color: #F55;
 }
@@ -132,16 +134,26 @@ h2 {
   margin-left: 4px;
   margin-right: 4px;
 }
-.more a:link, .more a:visited {
+.back {
+  float: left;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.more a:link, .more a:visited, .back a:link, .back a:visited {
   color: #F55;
   text-decoration: none;
 }
-.more a:hover {
+.more a:hover, .back a:hover {
   background-color: #444;
   color: #F55;
   text-decoration: none;
 }
-.more a:active {
+.more a:active, .back a:active {
   background-color: #444;
   color: #F22;
   text-decoration: none;
@@ -169,8 +181,8 @@ h2 {
     padding-right: 20px;
   }
   .highlight, .block1 {
-    width: 50%;
-    min-width: 630px;
+    width: 60%;
+    min-width: 648px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -181,7 +193,7 @@ h2 {
     padding-right: 20px;
   }
   .highlight, .block1 {
-    width: 70%;
+    width: 80%;
     min-width: 540px;
   }
 }
@@ -198,12 +210,15 @@ h2 {
   .navbutton {
     font-size: 18px;
   }
-  .highlight, .block1 {
-    width: 90%;
+  .block1 {
+    width: 100%;
     min-width: 288px;
   }
   .highlight {
     font-size: 18px;
+  }
+  .highlightbox {
+    min-height: 360px;
   }
 }
 ::selection {
