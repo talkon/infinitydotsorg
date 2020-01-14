@@ -14,12 +14,12 @@ anything from black to white and anything from red to white.
 * For navigation bar, insert this snippet in the head of html file
 
 ~~~~html
-<script src='../assets/scripts/csi.min.js'></script>
+<script src='/assets/scripts/csi.min.js'></script>
 ~~~~
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And use it like
 ~~~~html
-<div data-include="../old_2019/navbar.html"></div>
+<div data-include="/old_2019/navbar.html"></div>
 ~~~~
 
 * For viewing in mobile, although you must actually write adaptable css first :  

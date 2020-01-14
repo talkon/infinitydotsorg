@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  background-color: #000;
+  font-size: 14px;
+  padding: 20px;
+  border: 0px;
+  margin: 0px;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%;
+}
+.inner-container {
+  width: 70%;
+  min-width: 600px;
+  margin: auto;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.content {
+  padding-left: 260px;
+  width: 100%;
+  min-width: 600px;
+}
+.centered-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  min-width: 300px;
+}
+.navbar-container {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: inherit;
+  overflow-x: hidden;
+  width: 260px;
+  overflow: auto;
+}
+.navbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 180px;
+}
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+a:link, a:visited {
+  color: #FAA;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #444;
+  text-decoration: none;
+  color: #FAA;
+}
+a:active {
+  background-color: #444;
+  text-decoration: none;
+  color: #F55;
+}
+.more a:link, .more a:visited, .back a:link, .back a:visited {
+  color: #F55;
+  text-decoration: none;
+}
+.more a:hover, .back a:hover {
+  color: #F55;
+  text-decoration: none;
+  background-color: inherit;
+  font-weight: 700;
+}
+.more a:active, .back a:active {
+  color: #F22;
+  text-decoration: none;
+  background-color: inherit;
+  font-weight: 700;
+}
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+  color: #FFF;
+  text-decoration: none;
+  background-color: inherit;
+}
+table {
+  width: 100%;
+  table-layout: fixed
+}
+td {
+  vertical-align: bottom;
+}
+.block2 {
+  float: left;
+  width: 50%;
+  min-width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.block2:nth-child(2n+1){
+  clear: left;
+}
+.footer-button {
+  width: 50%;
+  float: left;
+}
